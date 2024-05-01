@@ -1,0 +1,138 @@
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.left img {
+    width: 60px;
+    filter: invert(100%);
+    display: block;
+    margin: auto;
+
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    /* border: 2px solid rgb(74, 235, 0); */
+    display: block;
+    margin: 29px auto;
+    width: 49%;
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 24px;
+    top: 43px;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 15px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: rgb(199, 193, 193);
+}
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(122, 117, 117);
+}
+.middlebox{
+    display: inline-block;
+    /* border: 2px solid red; */
+    margin-top: 115px;
+    margin-left: 210px;
+    text-align: center;
+    font-size: 20px;
+}
+table{
+    /* border: 2px solid red; */
+    width: 350px;
+    height: 350px;
+     float: left;
+    margin-top: 70px;
+    margin-left: 25px;
+    text-align: center;
+}
+.table #head th{
+    border: 1px solid white;
+    height: 45px;
+    border-radius: 6px;
+    color: rgb(133, 0, 133);
+    background-color: white;
+    font-weight: bold;
+}
+.table #head2 th{
+    border: 1px solid white;
+    background-color: rgb(94, 94, 94);
+    height: 40px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.body td{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+}
+.table2{
+      /* border: 2px solid red; */
+      width: 350px;
+      height: 350px;
+       float: right;
+      margin-top: 70px;
+      margin-right: 29px;
+      text-align: center;
+}
+.table2 #head th{
+    border: 1px solid white;
+    height: 45px;
+    border-radius: 6px;
+    color: rgb(133, 0, 133);
+    background-color: white;
+    font-weight: bold;
+    /* font-size: 20px; */
+}
+.table2 #head2 th{
+    border: 1px solid white;
+    background-color: rgb(94, 94, 94);
+    height: 40px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
