@@ -1,0 +1,117 @@
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.left img {
+    width: 60px;
+    filter: invert(100%);
+    display: block;
+    margin: auto;
+
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    /* border: 2px solid rgb(74, 235, 0); */
+    display: block;
+    margin: 29px auto;
+    width: 49%;
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 24px;
+    top: 43px;
+}
+
+.right a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 15px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: rgb(199, 193, 193);
+}
+
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(122, 117, 117);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 56px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.container h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.formgroup input {
+    text-align: center;
+    display: block;
+    width: 404px;
+    height: 25px ;
+    border-radius: 8px;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 15px;
+}
+
+.formgroup button {
+    display: block;
+    width: 410px;
+    height: 35px ;
+    margin: 20px auto;
+    font-size: 15px;
+}
+.footer {
+    /* background-color: black; */
+    color: #fff;
+    /* padding: 40px; */
+    text-align: center;
+    font-size: 14px;
+}
