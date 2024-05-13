@@ -1,4 +1,4 @@
-# 💪 Gym Website
+#  Gym Website
 
 Welcome to the **Gym Website** repository! This project empowers gym owners to create and manage their gym's online presence effectively. Get ready to pump up your gym's digital game! 🏋️‍♂️
 
